@@ -11,23 +11,19 @@ struct RandomeventUIView: View {
     var body: some View {
         ZStack {
             Circle()
-                .frame(width: 180)
+                .frame(width: 150)
+                .foregroundStyle(.warmyellow)
             VStack {
-                
                 Text("adventure")
                     .padding()
-                    .foregroundStyle(Color.gray)
+                    .foregroundStyle(.warmred)
                     .bold()
                     .font(.title)
-                
             Image(systemName: "questionmark.folder")
                     .resizable()
                     .foregroundColor(Color.white)
                     .scaledToFit()
-                    .frame(width: 75.0)
-                   
-                    
-                
+                    .frame(width: 50.0)
             }
         }
     }

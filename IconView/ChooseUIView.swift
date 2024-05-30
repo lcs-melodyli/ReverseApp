@@ -12,12 +12,13 @@ struct ChooseIconView: View {
     var body: some View {
         ZStack {
             Circle()
-                .frame(width: 180)
+                .frame(width: 150)
+                .foregroundStyle(.warmyellow)
             VStack {
                 
                 Text("Experience")
                     .padding()
-                    .foregroundStyle(Color.gray)
+                    .foregroundStyle(.warmred)
                     .bold()
                     .font(.title)
                 

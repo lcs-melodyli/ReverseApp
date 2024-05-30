@@ -11,10 +11,11 @@ struct AttackIconView: View {
     var body: some View {
         ZStack {
             Circle()
-                .frame(width: 150)
+                .frame(width: 100)
+                .foregroundStyle(.warmyellow)
             VStack {
                 Text("Attack")
-                    .foregroundStyle(Color.gray)
+                    .foregroundStyle(Color.warmred)
                     .bold()
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 

@@ -15,7 +15,7 @@ struct SingleIconView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color.gray)
+                .fill(Color.warmgreen)
                 .padding()
             .frame(height: 100)
             HStack {
