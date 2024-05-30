@@ -14,6 +14,10 @@
 		219D40E92C08B3CC0069E77B /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40E82C08B3CC0069E77B /* MainUIView.swift */; };
 		219D40EB2C08B3F40069E77B /* AttackUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40EA2C08B3F40069E77B /* AttackUIView.swift */; };
 		219D40ED2C08B4350069E77B /* ChooseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40EC2C08B4350069E77B /* ChooseUIView.swift */; };
+		219D40EF2C08CF340069E77B /* SkillOneUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40EE2C08CF340069E77B /* SkillOneUIView.swift */; };
+		219D40F12C08CF510069E77B /* SkillTwoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F02C08CF510069E77B /* SkillTwoUIView.swift */; };
+		219D40F32C08CF680069E77B /* SkillThreeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F22C08CF680069E77B /* SkillThreeUIView.swift */; };
+		219D40F52C08CFA50069E77B /* RandomeventUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F42C08CFA50069E77B /* RandomeventUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		219D40E82C08B3CC0069E77B /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
 		219D40EA2C08B3F40069E77B /* AttackUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackUIView.swift; sourceTree = "<group>"; };
 		219D40EC2C08B4350069E77B /* ChooseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUIView.swift; sourceTree = "<group>"; };
+		219D40EE2C08CF340069E77B /* SkillOneUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillOneUIView.swift; sourceTree = "<group>"; };
+		219D40F02C08CF510069E77B /* SkillTwoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTwoUIView.swift; sourceTree = "<group>"; };
+		219D40F22C08CF680069E77B /* SkillThreeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillThreeUIView.swift; sourceTree = "<group>"; };
+		219D40F42C08CFA50069E77B /* RandomeventUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomeventUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				219D40E82C08B3CC0069E77B /* MainUIView.swift */,
 				219D40EA2C08B3F40069E77B /* AttackUIView.swift */,
 				219D40EC2C08B4350069E77B /* ChooseUIView.swift */,
+				219D40F42C08CFA50069E77B /* RandomeventUIView.swift */,
+				219D40EE2C08CF340069E77B /* SkillOneUIView.swift */,
+				219D40F02C08CF510069E77B /* SkillTwoUIView.swift */,
+				219D40F22C08CF680069E77B /* SkillThreeUIView.swift */,
 			);
 			path = IconView;
 			sourceTree = "<group>";
@@ -155,9 +167,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				219D40DC2C08B37D0069E77B /* ContentView.swift in Sources */,
+				219D40F32C08CF680069E77B /* SkillThreeUIView.swift in Sources */,
 				219D40DA2C08B37D0069E77B /* ReverseAppApp.swift in Sources */,
+				219D40F12C08CF510069E77B /* SkillTwoUIView.swift in Sources */,
 				219D40EB2C08B3F40069E77B /* AttackUIView.swift in Sources */,
+				219D40EF2C08CF340069E77B /* SkillOneUIView.swift in Sources */,
 				219D40E92C08B3CC0069E77B /* MainUIView.swift in Sources */,
+				219D40F52C08CFA50069E77B /* RandomeventUIView.swift in Sources */,
 				219D40ED2C08B4350069E77B /* ChooseUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

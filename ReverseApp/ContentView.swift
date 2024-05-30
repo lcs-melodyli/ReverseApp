@@ -10,10 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-            SingleIconView(Title: "A new future is upon us", SecondTitle: "This is future")
-            
+            ZStack{
+               Color.beige
+                    .ignoresSafeArea()
+                SingleIconView(Title: "A new future is upon us", SecondTitle: "This is our story")
+                
+            }
+            .navigationTitle("Your story")
         }
-        .navigationTitle("Your story")
+        
     
     }
 }
