@@ -1,0 +1,15 @@
+{
+  "originHash" : "7702df59f701108a71b997fe6c709a57e5f257ded6a41cc244aa8e0c654718b3",
+  "pins" : [
+    {
+      "identity" : "retrotext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/russellgordon/RetroText",
+      "state" : {
+        "revision" : "b23714fb5beb4d2331e5b0691b6913a43833f201",
+        "version" : "0.0.16"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -24,9 +24,6 @@ struct AttackIconView: View {
                     .foregroundColor(Color.white)
                     .scaledToFit()
                     .frame(width: 50.0)
-                   
-                    
-                
             }
         }
     }

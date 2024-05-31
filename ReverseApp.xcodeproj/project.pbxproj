@@ -18,6 +18,10 @@
 		219D40F12C08CF510069E77B /* SkillTwoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F02C08CF510069E77B /* SkillTwoUIView.swift */; };
 		219D40F32C08CF680069E77B /* SkillThreeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F22C08CF680069E77B /* SkillThreeUIView.swift */; };
 		219D40F52C08CFA50069E77B /* RandomeventUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F42C08CFA50069E77B /* RandomeventUIView.swift */; };
+		219D40FA2C08E3380069E77B /* EpisodePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D40F92C08E3380069E77B /* EpisodePlayerView.swift */; };
+		219D40FD2C0A25C60069E77B /* RetroText in Frameworks */ = {isa = PBXBuildFile; productRef = 219D40FC2C0A25C60069E77B /* RetroText */; };
+		219D41012C0A49030069E77B /* MainLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D41002C0A49030069E77B /* MainLobbyView.swift */; };
+		219D41032C0A49640069E77B /* LobbyButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D41022C0A49640069E77B /* LobbyButtonUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,9 @@
 		219D40F02C08CF510069E77B /* SkillTwoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTwoUIView.swift; sourceTree = "<group>"; };
 		219D40F22C08CF680069E77B /* SkillThreeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillThreeUIView.swift; sourceTree = "<group>"; };
 		219D40F42C08CFA50069E77B /* RandomeventUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomeventUIView.swift; sourceTree = "<group>"; };
+		219D40F92C08E3380069E77B /* EpisodePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodePlayerView.swift; sourceTree = "<group>"; };
+		219D41002C0A49030069E77B /* MainLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLobbyView.swift; sourceTree = "<group>"; };
+		219D41022C0A49640069E77B /* LobbyButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyButtonUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219D40FD2C0A25C60069E77B /* RetroText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				219D40D92C08B37D0069E77B /* ReverseAppApp.swift */,
+				219D40F82C08E3170069E77B /* EpisodePlayer */,
 				219D40E72C08B3B20069E77B /* IconView */,
 				219D40D82C08B37D0069E77B /* ReverseApp */,
 				219D40D72C08B37D0069E77B /* Products */,
@@ -88,12 +97,22 @@
 				219D40E82C08B3CC0069E77B /* MainUIView.swift */,
 				219D40EA2C08B3F40069E77B /* AttackUIView.swift */,
 				219D40EC2C08B4350069E77B /* ChooseUIView.swift */,
+				219D41002C0A49030069E77B /* MainLobbyView.swift */,
 				219D40F42C08CFA50069E77B /* RandomeventUIView.swift */,
 				219D40EE2C08CF340069E77B /* SkillOneUIView.swift */,
 				219D40F02C08CF510069E77B /* SkillTwoUIView.swift */,
 				219D40F22C08CF680069E77B /* SkillThreeUIView.swift */,
+				219D41022C0A49640069E77B /* LobbyButtonUIView.swift */,
 			);
 			path = IconView;
+			sourceTree = "<group>";
+		};
+		219D40F82C08E3170069E77B /* EpisodePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				219D40F92C08E3380069E77B /* EpisodePlayerView.swift */,
+			);
+			path = EpisodePlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +131,9 @@
 			dependencies = (
 			);
 			name = ReverseApp;
+			packageProductDependencies = (
+				219D40FC2C0A25C60069E77B /* RetroText */,
+			);
 			productName = ReverseApp;
 			productReference = 219D40D62C08B37D0069E77B /* ReverseApp.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +162,9 @@
 				Base,
 			);
 			mainGroup = 219D40CD2C08B37D0069E77B;
+			packageReferences = (
+				219D40FB2C0A25C60069E77B /* XCRemoteSwiftPackageReference "RetroText" */,
+			);
 			productRefGroup = 219D40D72C08B37D0069E77B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,11 +195,14 @@
 				219D40F32C08CF680069E77B /* SkillThreeUIView.swift in Sources */,
 				219D40DA2C08B37D0069E77B /* ReverseAppApp.swift in Sources */,
 				219D40F12C08CF510069E77B /* SkillTwoUIView.swift in Sources */,
+				219D41012C0A49030069E77B /* MainLobbyView.swift in Sources */,
 				219D40EB2C08B3F40069E77B /* AttackUIView.swift in Sources */,
 				219D40EF2C08CF340069E77B /* SkillOneUIView.swift in Sources */,
 				219D40E92C08B3CC0069E77B /* MainUIView.swift in Sources */,
+				219D40FA2C08E3380069E77B /* EpisodePlayerView.swift in Sources */,
 				219D40F52C08CFA50069E77B /* RandomeventUIView.swift in Sources */,
 				219D40ED2C08B4350069E77B /* ChooseUIView.swift in Sources */,
+				219D41032C0A49640069E77B /* LobbyButtonUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		219D40FB2C0A25C60069E77B /* XCRemoteSwiftPackageReference "RetroText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/russellgordon/RetroText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.16;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		219D40FC2C0A25C60069E77B /* RetroText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 219D40FB2C0A25C60069E77B /* XCRemoteSwiftPackageReference "RetroText" */;
+			productName = RetroText;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 219D40CE2C08B37D0069E77B /* Project object */;
 }

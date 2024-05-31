@@ -13,17 +13,15 @@ struct ContentView: View {
             ZStack{
                Color.beige
                     .ignoresSafeArea()
-                VStack {
-                    SingleIconView(Title: "A new future is upon us", SecondTitle: "This is our story")
-                    HStack {
-                       AttackIconView()
-                        
-                    }
+                List {
+                    
+                    
+                    
                     
                 }
                 
         }
-            .navigationTitle("Your story")
+            .navigationTitle("Lobby")
             
         }
     }
