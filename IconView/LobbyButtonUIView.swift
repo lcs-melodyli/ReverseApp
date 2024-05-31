@@ -14,7 +14,7 @@ struct LobbyButtonUIView: View {
     var body: some View {
         ZStack{
         RoundedRectangle(cornerRadius: 20)
-                .foregroundStyle(Color.beige)
+                .foregroundStyle(Color.warmgreen)
                 .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
         
             VStack {
